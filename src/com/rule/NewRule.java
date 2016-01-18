@@ -16,7 +16,7 @@ public class NewRule {
 	public static void main(String[] args) throws Exception { 
 		int xinzeng=1;
 <<<<<<< HEAD
-		int xinzeng2=1;
+		int xinzeng2=3;
 =======
 		int xinzeng2=2;
 >>>>>>> branch 'master' of https://github.com/xkrong/TestStiodu
