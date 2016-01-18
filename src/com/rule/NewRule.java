@@ -15,7 +15,11 @@ public class NewRule {
 	private String source;
 	public static void main(String[] args) throws Exception { 
 		int xinzeng=1;
+<<<<<<< HEAD
 		int xinzeng2=1;
+=======
+		int xinzeng2=2;
+>>>>>>> branch 'master' of https://github.com/xkrong/TestStiodu
 		HashMap hMap=new HashMap();
 		hMap.put("1", "a");
 		hMap.put("2", "b");
