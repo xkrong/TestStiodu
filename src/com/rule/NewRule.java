@@ -15,6 +15,7 @@ public class NewRule {
 	private String source;
 	public static void main(String[] args) throws Exception { 
 		int xinzeng=1;
+		int xinzeng2=2;
 		HashMap hMap=new HashMap();
 		hMap.put("1", "a");
 		hMap.put("2", "b");
