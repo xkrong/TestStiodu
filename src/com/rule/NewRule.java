@@ -14,6 +14,7 @@ import com.amarsoft.rule.xfire.RuleServicesClient;
 public class NewRule {
 	private String source;
 	public static void main(String[] args) throws Exception { 
+		int xinzeng=1;
 		HashMap hMap=new HashMap();
 		hMap.put("1", "a");
 		hMap.put("2", "b");
@@ -53,15 +54,15 @@ public class NewRule {
 
 	public  void execute() throws Exception {
 		
-			ARE.getLog().info("========================½øÈë=====================");
+			ARE.getLog().info("========================è¿›å…¥=====================");
 			String sParam  = "";
-			//Á¬½ÓÔËËãÒıÇæ
-			String sAPP = "http://localhost:9000/ruleservice";//Ó¦ÓÃ±àºÅ£¬Ä¿Ç°¿ÉËæ±ãÉèÖÃ
-			String sUser = "app";//µ÷ÓÃ¹æÔòµÄÓÃ»§£¬Ä¿Ç°¿ÉËæ±ãÉèÖÃ
-			String sPassword = "app";//µ÷ÓÃ¹æÔòµÄÓÃ»§ÃÜÂë£¬Ä¿Ç°¿ÉËæ±ãÉèÖÃ
-			String sModelID = "TESTBJ";//µ÷ÓÃµÄ¹æÔòÄ£ĞÍ
-			String sRuleType = "RuleFlow";//¹æÔòÀàĞÍ
-			String sRuleID = "test3";//¹æÔòÁ÷±àºÅ  BCFC_¹´»ü¼ì²é
+			//è¿æ¥è¿ç®—å¼•æ“
+			String sAPP = "http://localhost:9000/ruleservice";//åº”ç”¨ç¼–å·ï¼Œç›®å‰å¯éšä¾¿è®¾ç½®
+			String sUser = "app";//è°ƒç”¨è§„åˆ™çš„ç”¨æˆ·ï¼Œç›®å‰å¯éšä¾¿è®¾ç½®
+			String sPassword = "app";//è°ƒç”¨è§„åˆ™çš„ç”¨æˆ·å¯†ç ï¼Œç›®å‰å¯éšä¾¿è®¾ç½®
+			String sModelID = "TESTBJ";//è°ƒç”¨çš„è§„åˆ™æ¨¡å‹
+			String sRuleType = "RuleFlow";//è§„åˆ™ç±»å‹
+			String sRuleID = "test3";//è§„åˆ™æµç¼–å·  BCFC_å‹¾ç¨½æ£€æŸ¥
 			RuleServicesClient rsc = null;
 			RuleServicePortType rsp = null;
 			rsc = new RuleServicesClient();
