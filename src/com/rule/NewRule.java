@@ -15,6 +15,7 @@ public class NewRule {
 	private String source;
 	public static void main(String[] args) throws Exception { 
 		int xinzeng=1;
+		int xinzeng2=1;
 		HashMap hMap=new HashMap();
 		hMap.put("1", "a");
 		hMap.put("2", "b");
@@ -54,15 +55,15 @@ public class NewRule {
 
 	public  void execute() throws Exception {
 		
-			ARE.getLog().info("========================进入=====================");
+			ARE.getLog().info("========================杩涘叆=====================");
 			String sParam  = "";
-			//连接运算引擎
-			String sAPP = "http://localhost:9000/ruleservice";//应用编号，目前可随便设置
-			String sUser = "app";//调用规则的用户，目前可随便设置
-			String sPassword = "app";//调用规则的用户密码，目前可随便设置
-			String sModelID = "TESTBJ";//调用的规则模型
-			String sRuleType = "RuleFlow";//规则类型
-			String sRuleID = "test3";//规则流编号  BCFC_勾稽检查
+			//杩炴帴杩愮畻寮曟搸
+			String sAPP = "http://localhost:9000/ruleservice";//搴旂敤缂栧彿锛岀洰鍓嶅彲闅忎究璁剧疆
+			String sUser = "app";//璋冪敤瑙勫垯鐨勭敤鎴凤紝鐩墠鍙殢渚胯缃�
+			String sPassword = "app";//璋冪敤瑙勫垯鐨勭敤鎴峰瘑鐮侊紝鐩墠鍙殢渚胯缃�
+			String sModelID = "TESTBJ";//璋冪敤鐨勮鍒欐ā鍨�
+			String sRuleType = "RuleFlow";//瑙勫垯绫诲瀷
+			String sRuleID = "test3";//瑙勫垯娴佺紪鍙� BCFC_鍕剧ń妫�煡
 			RuleServicesClient rsc = null;
 			RuleServicePortType rsp = null;
 			rsc = new RuleServicesClient();
